@@ -1,0 +1,87 @@
+body {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Trirong", sans-serif;
+    background-size: cover;
+    background-image: url('src/assets/images/bg-main.jpg');
+}
+
+.title-page {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: #475a89;
+}
+
+.users-list {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.user-item {
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 35%;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .2);
+    background: rgba(255, 255, 255, .9);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.user-name {
+    font-size: 28px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+.btn-details {
+    padding: 5px;
+    width: 30%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #575a86;
+    border: 1px solid #f5f5f575;
+    border-radius: 3px;
+    background-color: #c6d4ee;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .2);
+    transition: all 300ms;
+}
+
+.btn-details:hover {
+    background-color: #98b9f9;
+    width: 31%;
+    height: 35px;
+}
+
+@media screen and (max-width: 768px) {
+    .user-item {
+        margin-bottom: 10px;
+        width: 90%;
+    }
+
+    .title-page {
+        font-size: 32px;
+    }
+
+    .user-name {
+        font-size: 22px;
+    }
+
+    .btn-details {
+        width: 45%;
+    }
+}
+
