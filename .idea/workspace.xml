@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="639a9e49-6578-4836-b271-e591908cb777" name="Changes" comment="add mini-project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/normalise.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/normalise.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PostDetails/post-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PostDetails/post-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PostDetails/postDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PostDetails/postDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/UserDetails/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserDetails/user-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/UserDetails/userDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserDetails/userDetails.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/olgasamijlenko/IdeaProjects/mini_project",
+    "last_opened_file_path": "/Users/olgasamijlenko/IdeaProjects/mini_project/src/pages",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,6 +49,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/assets/styles" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -55,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678978776290</updated>
-      <workItem from="1678978777584" duration="787000" />
+      <workItem from="1678978777584" duration="2733000" />
     </task>
     <task id="LOCAL-00001" summary="add mini-project">
       <created>1678979090196</created>
@@ -64,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678979090196</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add mini-project">
+      <created>1678980072791</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678980072791</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

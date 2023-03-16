@@ -14,12 +14,12 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${post.id}/comments`)
     .then(res => res.json())
     .then(comments => {
 
-        const commentsDiv = document.createElement('div');
+        const commentsDiv = document.createElement('ul');
         commentsDiv.classList.add('comments');
 
         for (const comment of comments) {
 
-            const commentItem = document.createElement('div');
+            const commentItem = document.createElement('li');
             commentItem.classList.add('comment');
             commentItem.innerHTML += `
                   <h4>${comment.name}</h4>

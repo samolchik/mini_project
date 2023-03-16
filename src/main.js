@@ -2,11 +2,11 @@ fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
     .then(users => {
 
-        const mainContainer = document.getElementById('mainContainer');
+        const usersContainer = document.getElementById('usersContainer');
 
         for (const user of users) {
 
-            const userItem = document.createElement('div');
+            const userItem = document.createElement('li');
             userItem.classList.add('user-item');
 
             const userInfo = document.createElement('div');
@@ -25,11 +25,11 @@ fetch('https://jsonplaceholder.typicode.com/users')
             const link = document.createElement('a');
             link.classList.add('btn-details');
             link.target = '_blank';
-            link.href = 'src/pages/UserDetails/user-details.html?data=' + JSON.stringify(user);
+            link.href = 'pages/UserDetails/user-details.html?data=' + JSON.stringify(user);
 
             link.appendChild(button);
             userItem.append(userInfo, link);
-            mainContainer.appendChild(userItem);
+            usersContainer.appendChild(userItem);
         }
     });
 

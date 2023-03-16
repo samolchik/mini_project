@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+body,
 ul[class],
 ol[class] {
     padding: 0;

@@ -19,7 +19,6 @@ userContent.innerHTML = `
                       <address><i class="fa-solid fa-address-book grey"></i> ${user.address.street}, ${user.address.suite}, ${user.address.city}, ${user.address.zipcode}</address>
                       <p><i class="fa-solid fa-location-dot grey"></i> ${user.address.geo.lat} & ${user.address.geo.lng}</p>
                   </div>`;
-
 fetch(`https://jsonplaceholder.typicode.com/users/${user.id}/posts`)
     .then(res => res.json())
     .then(posts => {
@@ -28,7 +27,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${user.id}/posts`)
 
         for (const post of posts) {
 
-            const postItem = document.createElement('div');
+            const postItem = document.createElement('li');
             postItem.classList.add('post');
             postItem.innerText = post.title;
 
